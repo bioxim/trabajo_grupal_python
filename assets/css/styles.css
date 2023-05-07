@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital@1&family=Cormorant+Garamond:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+.header{
+    background-color:rgb(202, 202, 132);
+    padding: 2%;
+    margin: .1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo{
+    margin-left: 2%;
+    color: black;
+    font-size: 30px;
+}
+.header .nav{
+    margin-right: 2%;
+}
+.header .nav a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 20px;
+    color: black;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row .article{
+    background-color: aquamarine;
+    margin: .1%;
+    flex: 70%;
+}
+.row .article .section{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Averia Libre', cursive;
+}
+.row .article .section .img img{
+    width: 100%;
+}
+.row .article .img-datos{ 
+    padding: 50px;
+}
+.row .article .img-datos h2,
+.row .article .img-datos p{
+    padding: 10px 0 ;
+    text-align: justify;
+}
+.row .aside{
+    background-color: rgb(110, 209, 110);
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    width: 250px;
+    margin: .1%;
+}
+
+.footer{
+    background-color: rgb(202, 202, 132);
+    padding: 5%;
+    margin: .1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

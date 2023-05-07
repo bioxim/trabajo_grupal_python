@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de contacto</title>
+    <!--linkea a la hoja de animacion-->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--linkea a la hoja de estilos-->
+    <link rel="stylesheet" href="./assets/css/estilos1.css">
+</head>
+<nav></nav>
+<body>
+    <h1>Página de contacto</h1>
+    <p>Si tienes información sobre algún animal en situación de abandono o de peligro y quieres contactarte con nosotros o quieres algún consejo deja tus datos para que te llamemos</p>
+    <br>
+    <div id="form">
+    <form action="https://formsubmit.co/a7b2f40d8d375fdde3c84fb7f7e0ef3b" method="POST" >
+        <label for="Nombre">Nombre:</label>
+        <br>
+        <input type="text" name="Nombre">
+        <br>
+        
+        <label for="Apellido">Apellido:</label>
+        <br>
+        <input type="text" name="Apellido">
+        <br>
+
+        <label for="Telefono">Teléfono</label>
+        <br>
+        <input type="number" name="Telefono">
+        <br>
+
+        <label for="email">Correo electrónico</label>
+        <br>
+        <input type="email" name="email">
+        <br>
+
+        <label for="Descripcion">Descripción del asunto:</label>
+        <br>
+        <textarea name="texto" rows="5" cols="30"></textarea>
+        <br>
+
+        <input type="submit" name="enviar" value="Enviar datos">
+        <input type="hidden" name="_next" value="http://127.0.0.1:3000/formulario.html">
+    </form>
+    </div>
+      <br>
+      <h3>Videos destacados de otros refugios:</h3>
+      <iframe width="400" height="315" src="https://www.youtube.com/embed/bcFfZhsCibs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+<header></header>
+</html>
