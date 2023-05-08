@@ -20,6 +20,7 @@
     color: black;
     font-size: 30px;
 }
+
 .header .nav{
     margin-right: 2%;
 }
@@ -34,6 +35,7 @@
     flex-wrap: wrap;
 }
 .row .article{
+
     background-color: aquamarine;
     margin: .1%;
     flex: 70%;
@@ -45,6 +47,19 @@
     align-items: center;
     font-family: 'Averia Libre', cursive;
 }
+.row .titulo{
+    padding: 5%;
+}
+.row .titulo h1{
+    color: blue;   
+    text-align: center;
+}
+.row .titulo p{
+    text-align: justify;
+    
+}
+
+
 .row .article .section .img img{
     width: 100%;
 }
